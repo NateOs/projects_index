@@ -55,12 +55,19 @@ main li{
     margin: 2em 0;
     color: white;
 }
+li p {
+    text-decoration: capitalize;
+}
+li h3 {
+    color: cyan;
+    text-transform: capitalize;
+}
 
 a:visited {
-    color:#00FF00;
+    color: grey;
 }
 a:hover {
-    color:var(--orange)
+    color: orange
 }
 .container {
     margin: 0 auto;
